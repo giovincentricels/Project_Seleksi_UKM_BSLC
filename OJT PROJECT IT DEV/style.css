@@ -1,0 +1,314 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: inter;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.imagec{
+    display: flex;
+    float: left;
+    padding-right: 30px;
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: 800;
+    float: left;
+    font-family: inter;
+    color: #000;
+}
+
+.menu{
+    float: right;
+
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:white;
+    border-bottom: 2px solid black;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color:#000;
+    font-weight: Bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.kolom h1{
+    font-size: 50px;
+    font-family: Inter;
+    font-weight: lighter;
+    color: black;
+    line-height: 100px;
+}
+
+.kolom p{
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: lighter;
+    color: black;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 35px;
+}
+
+a.tbl-hijau{
+    background: #19A89D;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:white;
+    cursor: pointer;
+    font-weight: lighter;
+    font-family: inter;
+    font-size: 15px;
+}
+
+a.tbl-hijau:hover{
+    background:pink ;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.keterangan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    column-gap: 100px;
+    min-height: 100px;
+}
+
+.image1{
+    display: flex;
+    float: left;
+    padding-right: 20px;
+    
+}
+.Mentoring h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin: auto;
+    display: flex;
+    padding-bottom: 15px;
+    line-height: 50px;
+}
+
+.keterangan .Mentoring{
+    float: left;
+    height:150px;
+    width: 500px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.image2{
+    display: flex;
+    float: left;
+    padding-right: 20px;
+    
+}
+
+.Mentee h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin: auto;
+    display: flex;
+    padding-bottom: 15px;
+    line-height: 50px;
+}
+
+.keterangan .Mentee{
+    float: right;
+    height: 150px;
+    width: 500px;
+    text-align: justify;
+}
+
+.video p{
+    margin-top: 250px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+.container{
+    width: 500px;
+    height: 281px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid#000;
+    margin-bottom: 100px;
+}
+
+.teksakhir{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.imageteksakhir{
+    display: flex;
+    float: right;
+    margin-right: 170px;
+    margin-top:80px;
+}
+
+.masukan input{
+    width: 50%;
+    height: 25px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.alamat input{
+    width: 50%;
+    height: 25px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input:placeholder-shown{
+    font-style: italic;
+}
+
+.send input{
+    background: #19A89D;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:white;
+    cursor: pointer;
+    font-weight: lighter;
+    font-family: inter;
+    font-size: 15px;
+    margin-bottom: 175px;
+}
+
+.send input:hover{
+    background:pink ;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 60px 30px;
+    margin-bottom:70px;
+}
+
+.textfooter p{
+    font-size: 22px;
+    font-family: inter;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.socialIcons{
+    display:flex;
+    float: left;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 14px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: pink;
+    transition: 0.5ms;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.imagefooter{
+    display: flex;
+    float: right;
+    margin-right: 80px;
+}
